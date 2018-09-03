@@ -37,8 +37,6 @@
 <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
 <!-- magnific popup css -->
 <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-<!-- Switch style CSS -->
-<link rel="stylesheet" href="css/color-style.css">
 <!-- style css -->
 <link rel="stylesheet" href="style.css">
 <!-- switch color presets css -->
@@ -93,7 +91,7 @@
           <div class="col-md-6 col-sm-6 col-xs-12">
             <ul class="top-hour">
               <li class="open-time">Opening Hours : 8:00am - 11:30pm</li>
-              <li> <a href="#">Eng <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+              <li>
                 <ul>
                   <li> <a href="#">Japan</a> </li>
                 </ul>
@@ -112,20 +110,19 @@
       <div class="row margin"> <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
         <nav class="rs-menu">
           <ul class="nav-menu">
-            <li class="menu-item-has-children"> <a href="#" class="home">Home</a>
-              <ul class="sub-menu">
-                <li> <a href="index-onepage.html">Home One</a> </li>
-                <li> <a href="index-onepage2.html">Home Two</a> </li>
-                <li> <a href="index-onepage3.html">Home Three</a> </li>
-              </ul>
+              <li> <a href="#" class="home">Головна</a>
+<!--            <li class="menu-item-has-children"> <a href="#" class="home">Home</a>-->
+<!--              <ul class="sub-menu">-->
+<!--                <li> <a href="index-onepage.html">Home One</a> </li>-->
+<!--                <li> <a href="index-onepage2.html">Home Two</a> </li>-->
+<!--                <li> <a href="index-onepage3.html">Home Three</a> </li>-->
+<!--              </ul>-->
             </li>
-            <li> <a href="#about-us">About Us</a></li>
-            <li> <a href="#menu">Menu</a></li>
-            <li> <a href="#reservation">Reservation</a></li>
-            <li> <a href="#gallery">Gallery</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#testimonial">Testimonials</a></li>
-            <li><a href="#contact-us">Contact</a></li>
+            <li> <a href="#about-us">Про нас</a></li>
+            <li> <a href="#menu">Меню</a></li>
+            <li> <a href="#reservation">Резервування</a></li>
+            <li><a href="#testimonial">Відгуки</a></li>
+            <li><a href="#contact-us">Контакти</a></li>
           </ul>
        </nav>
       </div>
@@ -143,14 +140,14 @@
       <div class="dsc">
         <h1 data-animation-in="flipInY" data-animation-out="animate-out fadeOutUp">Spicy & Tasty</h1>
         <h2 data-animation-in="flipInX" data-animation-out="animate-out fadeOutLeft">Chinese Delicious Food</h2>
-        <div class="btn-slider"> <a href="#reservation" class="btn1" data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutRight"><span>Book Now</span></a> <a href="#menu" class="btn2" data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutRight"><span>View Menu</span></a> </div>
+        <div class="btn-slider"> <a href="#reservation" class="btn1" data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutRight"><span>Забронювати</span></a> <a href="#menu" class="btn2" data-animation-in="bounceInLeft" data-animation-out="animate-out bounceOutRight"><span>Меню</span></a> </div>
       </div>
     </div>
     <div class="item"> <img src="images/slider/2.jpg" alt="slider image">
       <div class="dsc">
         <h1 data-animation-in="slideInDown" data-animation-out="animate-out slideOutUp">Spicy & Tasty</h1>
         <h2 data-animation-in="slideInRight" data-animation-out="animate-out fadeOut">American Delicious Food</h2>
-        <div class="btn-slider"> <a href="#reservation" class="btn1" data-animation-in="slideInUp" data-animation-out="animate-out slideOutDown"><span>Book Now</span></a> <a href="#menu" class="btn2" data-animation-in="slideInUp" data-animation-out="animate-out slideOutDown"><span>View Menu</span></a> </div>
+        <div class="btn-slider"> <a href="#reservation" class="btn1" data-animation-in="slideInUp" data-animation-out="animate-out slideOutDown"><span>Забронювати</span></a> <a href="#menu" class="btn2" data-animation-in="slideInUp" data-animation-out="animate-out slideOutDown"><span>Меню</span></a> </div>
       </div>
     </div>
   </div>
@@ -170,9 +167,9 @@
       </div>
       <div class="middle-text col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="inner">
-          <h2>Our Storry</h2>
-          <h3>Welcome to Khadok</h3>
-          <p>khadok is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection optio cumque nihil impedit quo minus id quod maxime. Quisque accumsan porta lacinia. Etiam tristique mattis rutrum. Sed vitae laoreet lectus. Donec sed elit felis. Fusce laoreet nec ante sit amet interdum. Sed vel pharetra turpis</p>
+          <h2>Про нас</h2>
+          <h3>Чекаємо на вас у Loft Cafe</h3>
+          <p>Loft Cafe – це місце, де хочеться зустрічатись, закохуватись, працювати та мріяти. Місце з чарівними десертами і гарним настроєм. А якщо ти захотів прихопити щось з собою – ми з радістю спакуємо будь то цілий кіш, салат, пиріг чи шматочок тортика! І, звісно ж, який початок дня без ароматного капучіно з Loft Cafe</p>
         </div>
       </div>
       <div class="right-images col-lg-3 col-md-3 col-sm-3 col-xs-12"> 
@@ -191,8 +188,8 @@
     <div class="container">
         <div class="row">
           <div class="col-sm-12">
-                  <h2 class="sec-title">Our Menus</h2>
-                  <h3 class="sec-sub-title">Find Our Menu</h3>
+                  <h2 class="sec-title">Наше Меню</h2>
+                  <h3 class="sec-sub-title">Відкрий смакоту</h3>
                   <div id="filters" class="button-group">
                       <button class="btn btn-primary active" data-filter=".lunch"><i class="flaticon-food"></i>Lunch</button>
                       <button class="btn btn-primary active1" data-filter=".breakfast"><i class="flaticon-breakfast-1"></i>Breakfast</button>
@@ -866,42 +863,42 @@
       <div class="slider slider-of-chef">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inner-text">
           <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 inner-text">
-            <h2 class="sec-title">Head Of Chefs</h2>
+            <h2 class="sec-title cook-man">Кухарі</h2>
             <h3 class="sec-sub-title">Jamie Oliver Bobby</h3>
             <p>khadok is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection optio cumque nihil impedit quo minus. </p>
-            <a href="#" class="read-more"><span>Read More</span></a> </div>
+             </div>
           <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12"> <img src="images/chef/1.png" alt=""> </div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inner-text">
           <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 inner-text">
-            <h2 class="sec-title">Head Of Chefs</h2>
+            <h2 class="sec-title cook-man">Кухарі</h2>
             <h3 class="sec-sub-title">Jhon Capprio</h3>
             <p>khadok is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, </p>
-            <a href="#" class="read-more"><span>Read More</span></a> </div>
+            </div>
           <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12"> <img src="images/chef/2.png" alt=""> </div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inner-text">
           <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 inner-text">
-            <h2 class="sec-title">Head Of Chefs</h2>
+            <h2 class="sec-title cook-man">Кухарі</h2>
             <h3 class="sec-sub-title">Angel Yammi</h3>
             <p>khadok is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection optio cumque nihil impedit quo minus. </p>
-            <a href="#" class="read-more"><span>Read More</span></a> </div>
+            </div>
           <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12"> <img src="images/chef/3.png" alt=""> </div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inner-text">
           <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 inner-text">
-            <h2 class="sec-title">Head Of Chefs</h2>
+            <h2 class="sec-title cook-man">Кухарі</h2>
             <h3 class="sec-sub-title">Kavin Anthoni</h3>
             <p>Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling London intersection optio cumque nihil impedit quo minus. </p>
-            <a href="#" class="read-more"><span>Read More</span></a> </div>
+            </div>
           <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12"> <img src="images/chef/4.png" alt=""> </div>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 inner-text">
           <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 inner-text">
-            <h2 class="sec-title">Head Of Chefs</h2>
+            <h2 class="sec-title cook-man">Кухарі</h2>
             <h3 class="sec-sub-title">Anna Taylor</h3>
             <p>khadok is a restaurant, bar and coffee roastery located on a busy corner site in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking the market and a bustling. </p>
-            <a href="#" class="read-more"><span>Read More</span></a> </div>
+            </div>
           <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12"> <img src="images/chef/5.png" alt=""> </div>
         </div>
       </div>
@@ -923,24 +920,24 @@
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="inner">
-          <h2 class="sec-title">Opening Hours</h2>
-          <h3 class="sec-sub-title">Open For Special Occasions</h3>
+          <h2 class="sec-title">Відкриття</h2>
+          <h3 class="sec-sub-title">Графік роботи</h3>
           <div class="images-icon"><img src="images/icon/1.png" alt=""></div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <h4>Monday – Thursday</h4>
-            <span>08AM – 10PM</span> </div>
+            <h4>Понеділок – Четвер</h4>
+            <span>08:00 – 22:00</span> </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <h4>Friday – Saturday</h4>
-            <span>10AM–11:30PM</span> </div>
+            <h4>П'ятниця – Субота</h4>
+            <span>10:00–00:00</span> </div>
           <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-            <h4>Sunday</h4>
-            <span>1PM–10PM</span> </div>
+            <h4>Неділя</h4>
+            <span>13:00–22:00</span> </div>
         </div>
       </div>
     </div>
     <div class="reservation">
-      <h2>Reservation</h2>
-      <h3>We Are Open All Day</h3>
+      <h2>Резервування</h2>
+      <h3>Виберіть вільний час</h3>
       <div id="form-messages"></div>
       <form id="reservation" method="post" action="http://rstheme.com/products/html/khadok/khadok-demo/reservation.php">
         <fieldset>
@@ -974,176 +971,7 @@
 
 <!-- Gallery Section Start Here -->
 
-<div id="gallery" class="home-gellary-area rs-gellary spc-large">
-  <div class="container">
-    <div class="row">
-      <h2 class="sec-title">Our Gallery</h2>
-      <h3 class="sec-sub-title">See Our Gallery Image</h3>
-      <div class="grid">
-        <div class="col-md-3 col-sm-6 col-xs-6 grid-item mb-30 filter1">
-          <div class="portfolio-item">
-            <div class="portfolio-img"> <img src="images/gallery/1.jpg" alt="Image" /> </div>
-            <div class="portfolio-content">
-              <div class="display-table">
-                <div class="display-table-cell"> <a class="image-popup p-zoom" href="images/gallery/1.jpg" title="Beefsteak image"> <i class="fa fa-search-plus" aria-hidden="true"></i> </a>
-                  <h3 class="p-title"><a href="#">Beefsteak</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6 grid-item mb-30 filter1">
-          <div class="portfolio-item">
-            <div class="portfolio-img"> <img src="images/gallery/2.jpg" alt="Image" /> </div>
-            <div class="portfolio-content">
-              <div class="display-table">
-                <div class="display-table-cell"> <a class="image-popup p-zoom" href="images/gallery/2.jpg" title="Beefsteak image"> <i class="fa fa-search-plus" aria-hidden="true"></i> </a>
-                  <h3 class="p-title"><a href="#">Beefsteak</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6 grid-item mb-30 filter1">
-          <div class="portfolio-item">
-            <div class="portfolio-img"> <img src="images/gallery/3.jpg" alt="Image" /> </div>
-            <div class="portfolio-content">
-              <div class="display-table">
-                <div class="display-table-cell"> <a class="image-popup p-zoom" href="images/gallery/3.jpg" title="Beefsteak image"> <i class="fa fa-search-plus" aria-hidden="true"></i> </a>
-                  <h3 class="p-title"><a href="#">Beefsteak</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6 grid-item mb-30 filter1">
-          <div class="portfolio-item">
-            <div class="portfolio-img"> <img src="images/gallery/4.jpg" alt="image" /> </div>
-            <div class="portfolio-content">
-              <div class="display-table">
-                <div class="display-table-cell"> <a class="image-popup p-zoom" href="images/gallery/4.jpg" title="Beefsteak image"> <i class="fa fa-search-plus" aria-hidden="true"></i> </a>
-                  <h3 class="p-title"><a href="#">Beefsteak</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6 grid-item mb-30 filter1">
-          <div class="portfolio-item">
-            <div class="portfolio-img"> <img src="images/gallery/6.jpg" alt="image" /> </div>
-            <div class="portfolio-content">
-              <div class="display-table">
-                <div class="display-table-cell"> <a class="image-popup p-zoom" href="images/gallery/6.jpg" title="Beefsteak image"> <i class="fa fa-search-plus" aria-hidden="true"></i> </a>
-                  <h3 class="p-title"><a href="#">Beefsteak</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6 grid-item mb-30 filter1">
-          <div class="portfolio-item">
-            <div class="portfolio-img"> <img src="images/gallery/5.jpg" alt="Beefsteak image" /> </div>
-            <div class="portfolio-content">
-              <div class="display-table">
-                <div class="display-table-cell"> <a class="image-popup p-zoom" href="images/gallery/5.jpg" title="Beefsteak image"> <i class="fa fa-search-plus" aria-hidden="true"></i> </a>
-                  <h3 class="p-title"><a href="#">Beefsteak</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6 grid-item mb-30 filter1">
-          <div class="portfolio-item">
-            <div class="portfolio-img"> <img src="images/gallery/7.jpg" alt="Beefsteak image" /> </div>
-            <div class="portfolio-content">
-              <div class="display-table">
-                <div class="display-table-cell"> <a class="image-popup p-zoom" href="images/gallery/7.jpg" title="Beefsteak image"> <i class="fa fa-search-plus" aria-hidden="true"></i> </a>
-                  <h3 class="p-title"><a href="#">Beefsteak</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 col-xs-6 grid-item mb-30 filter1">
-          <div class="portfolio-item">
-            <div class="portfolio-img"> <img src="images/gallery/8.jpg" alt="Beefsteak image" /> </div>
-            <div class="portfolio-content">
-              <div class="display-table">
-                <div class="display-table-cell"> <a class="image-popup p-zoom" href="images/gallery/8.jpg" title="Beefsteak image"> <i class="fa fa-search-plus" aria-hidden="true"></i> </a>
-                  <h3 class="p-title"><a href="#">Beefsteak</a></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Blog Section Start Here -->
-
-<div id="blog" class="home-blog-area spc-equal">
-  <div class="container">
-    <div class="row">
-      <h2 class="sec-title">Blog Post</h2>
-      <h3 class="sec-sub-title">See Our Latest News</h3>
-      <div class="blog-gallery owl-carousel">
-        <div class="item">
-          <div class="single-menu-area">
-            <div class="cl-single-menu">
-              <figure><img class="img-responsive" src="images/blog/1.jpg" alt=""></figure>
-              <div class="overlay">
-                <div class="short-desc"> <a href="blog-single.html">How To Cook The Spicy Chinese Noodle Cold Weather</a> </div>
-              </div>
-            </div>
-            <div class="article">
-              <div class="img"> <img class="img-responsive" src="images/blog/4.png" alt=""></div>
-              <h3>Mark Kalvin</h3>
-              <p>At vero eos et accusamus et iusto odio dignis si ducimus qui blanditiis 
-                
-                praesentium volup tatum del eniti atque </p>
-              <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 28 June 2017</span> <a href="blog-single.html">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a> </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="single-menu-area">
-            <div class="cl-single-menu">
-              <figure><img class="img-responsive" src="images/blog/2.jpg" alt=""></figure>
-              <div class="overlay">
-                <div class="short-desc"> <a href="blog-single.html">How To Cook The Spicy Chinese Noodle Cold Weather</a> </div>
-              </div>
-            </div>
-            <div class="article">
-              <div class="img"> <img class="img-responsive" src="images/blog/5.png" alt=""></div>
-              <h3>Rusda Alvice</h3>
-              <p>At vero eos et accusamus et iusto odio dignis si ducimus qui blanditiis 
-                
-                praesentium volup tatum del eniti atque </p>
-              <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 28 June 2017</span> <a href="blog-single.html">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a> </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="single-menu-area">
-            <div class="cl-single-menu">
-              <figure><img class="img-responsive" src="images/blog/3.jpg" alt=""></figure>
-              <div class="overlay">
-                <div class="short-desc"> <a href="blog-single.html">How To Cook The Spicy Chinese Noodle Cold Weather</a> </div>
-              </div>
-            </div>
-            <div class="article">
-              <div class="img"> <img class="img-responsive" src="images/blog/6.png" alt=""></div>
-              <h3>Nuhan Smith</h3>
-              <p>At vero eos et accusamus et iusto odio dignis si ducimus qui blanditiis 
-                
-                praesentium volup tatum del eniti atque </p>
-              <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 28 June 2017</span> <a href="blog-single.html">Read More <i class="fa fa-angle-right" aria-hidden="true"></i></a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Testimonials Section Start Here -->
 
@@ -1153,7 +981,7 @@
       <div class="left-images col-lg-3 col-md-3 col-sm-3 col-xs-12"> </div>
       <div class="inner-testimonials col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="inner">
-          <h2 class="sec-title">Testimonials</h2>
+          <h2 class="sec-title">Відгуки</h2>
           <h3 class="sec-sub-title">What Our Client Says</h3>
           <div class="slider testimonials">
             <div>
@@ -1204,35 +1032,6 @@
 
 <!-- Event Section Start Here -->
 
-<div class="our-event-area spc-large">
-  <div class="container">
-    <div class="row">
-      <h2 class="sec-title">Our Event</h2>
-      <h3 class="sec-sub-title">Join Our Latest Event</h3>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="inner first-content-text">
-          <div class="images-left"> <a href="event-single.html"> <img src="images/event/2.jpg" alt=""></a> </div>
-          <div class="content-left">
-            <h4>New Lunch Party</h4>
-            <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 28 June 2017</span> <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 10.30-03.30</span>
-            <p>Lorem ipsum dolor sit amet nib hash sed, consectetur adipiscing elit. Sed quis nisl scelerisque luctus metus</p>
-            <a href="event.html">View All Event <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-        <div class="inner">
-          <div class="images-left"> <a href="event-single.html"> <img src="images/event/1.jpg" alt=""></a> </div>
-          <div class="content-left">
-            <h4>Friday Night Party</h4>
-            <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> 28 June 2017</span> <span class="time"><i class="fa fa-clock-o" aria-hidden="true"></i> 10.30-03.30</span>
-            <p>Lorem ipsum dolor sit amet nib hash sed, consectetur adipiscing elit. Sed quis nisl scelerisque luctus metus</p>
-            <a href="event.html">View All Event <i class="fa fa-angle-double-right" aria-hidden="true"></i></a> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Start scrollUp  -->
 
 <div id="return-to-top"> <span>Top</span> </div>
@@ -1244,7 +1043,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="sec-title">Contact Us</h2>
+                <h2 class="sec-title">Контакти</h2>
                 <h3 class="sec-sub-title">Get In Touch With Us</h3>
                 <div class="contact-middle contact-middle2">
                     <div class="row">
@@ -1335,19 +1134,6 @@
 <!-- Contact Section End Here -->
 
 <!-- Brand Logo area  -->
-
-<div class="brand-logo-area">
-  <div class="container">
-    <div id="logo-slider" class="owl-carousel">
-      <div class="text-center item"> <a href="#"> <img src="images/brand/1.png" alt=""></a> </div>
-      <div class="text-center item"> <a href="#"><img src="images/brand/2.png" alt=""></a> </div>
-      <div class="text-center item"> <a href="#"><img src="images/brand/3.png" alt=""></a> </div>
-      <div class="text-center item"> <a href="#"><img src="images/brand/4.png" alt=""></a> </div>
-      <div class="text-center item"> <a href="#"> <img src="images/brand/1.png" alt=""></a> </div>
-      <div class="text-center item"> <a href="#"><img src="images/brand/2.png" alt=""></a> </div>
-    </div>
-  </div>
-</div>
 <footer class="spc-large">
   <div class="container"> 
     
@@ -1367,18 +1153,6 @@
       </ul>
     </div>
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-md-offset-1">
-        <div class="address"> 503  Old Buffalo Street
-          
-          Northwest #205, New York. </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-        <div class="phone"> <a href="tel:+3453-909-6565"> +3453-909-6565</a><br>
-          <a href="tel:+2390-875-2235">+2390-875-2235</a> </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-        <div class="email"> <a href="mailto:infoname@gmail.com">infoname@gmail.com</a> <a href="mailto:www.yourname.com">www.yourname.com</a> </div>
-      </div>
       <div class="copyright text-center">© 2017 <span>RS Theme.</span> All Rights Reserved. </div>
     </div>
   </div>
@@ -1388,22 +1162,6 @@
 
 <!-- STYLE SWITCH START -->
 
-<div class="style-switch right" id="switch-style"> <a id="toggle-switcher" class="switch-button" title="Change Styles"> <i class="fa fa-cog fa-spin fa-3x fa-fw"></i> </a>
-  <div class="switched-options">
-    <h4 class="preset-title">Presets Color</h4>
-    <ul class="list-unstyled styles">
-      <li><a href="#" title="default" class="red color" id="red"></a></li>
-      <li><a href="#" title="dark blue" class="dark-blue color" id="dark-blue"> </a></li>
-      <li><a href="#" title="blue" class="blue color" id="blue"></a></li>
-      <li><a href="#" title="green" class="green color" id="green"> </a></li>
-      <li><a href="#" title="orange" class="orange color" id="orange"></a></li>
-      <li><a href="#" title="pink" class="pink color" id="pink"></a></li>
-      <li><a href="#" title="purple" class="purple color" id="purple"></a></li>
-      <li><a href="#" title="coffee" class="coffee color" id="coffee"></a></li>
-      <li><a href="#" title="grey" class="grey color" id="grey"></a></li>
-    </ul>
-  </div>
-</div>
 
 <!-- all js here --> 
 
@@ -1438,8 +1196,7 @@
 <!-- Reservation form  --> 
 <script src="js/reservation-form.js"></script> 
 <!-- Switch js --> 
-<script src="js/color-style.js"></script> 
-<!-- main js --> 
+<!-- main js -->
 <script src="js/main.js"></script>
 </body>
 
