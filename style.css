@@ -59,6 +59,10 @@
   src: url('fonts/CookieRegular.eot');
   src: url('fonts/CookieRegular.eot') format('embedded-opentype'), url('fonts/CookieRegular.woff2') format('woff2'), url('fonts/CookieRegular.woff') format('woff'), url('fonts/CookieRegular.ttf') format('truetype'), url('fonts/CookieRegular.svg#CookieRegular') format('svg');
 }
+@font-face {
+  font-family: "PFChampionScriptPro-Bold";
+  src: url('fonts/PFChampionScriptPro-Bold.otf');
+}
 html,
 body {
   height: 100%;
@@ -865,7 +869,7 @@ body .nav-menu ul .active > a {
   font-size: 48px;
   line-height: 50px;
   color: #f10909;
-  font-family: 'CookieRegular';
+  font-family: 'PFChampionScriptPro-Bold';
 }
 .our-story .container h3 {
   font-size: 36px;
@@ -1210,7 +1214,7 @@ body .nav-menu ul .active > a {
   line-height: 40px;
   color: #f10909;
   text-align: center;
-  font-family: 'CookieRegular';
+  font-family: 'PFChampionScriptPro-Bold';
   font-weight: normal;
 }
 .sec-sub-title {
@@ -1423,7 +1427,7 @@ body .nav-menu ul .active > a {
 }
 .opening-hours {
   padding: 92px 0 100px;
-  background: url(images/parallax/1.jpg) no-repeat center top;
+  background: url(images/parallax/adult_bar_bartender_black_and_white_cafeteria_drinks_industry_jars-962983.jpg) no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -1460,7 +1464,7 @@ body .nav-menu ul .active > a {
 }
 .opening-hours .inner h4 {
   margin: 0 0 8px;
-  font-size: 18px;
+  font-size: 17px;
   color: #101010;
   font-weight: 400;
 }
@@ -1477,7 +1481,7 @@ body .nav-menu ul .active > a {
 .opening-hours .reservation h2 {
   color: #f10909;
   font-size: 48px;
-  font-family: 'CookieRegular';
+  font-family: 'PFChampionScriptPro-Bold';
   text-align: center;
   font-weight: normal;
   margin: 0 0 2px;
@@ -4927,7 +4931,7 @@ footer .copyright {
   position: relative;
   clear: both;
   padding: 24px 0 0;
-  margin: 134px 0 65px;
+  margin: 0px 0 65px;
 }
 footer .copyright span {
   color: #fff;
@@ -5323,4 +5327,7 @@ footer .copyright:before {
 }
 .home-two-services-area ul li:hover {
   opacity: .7;
+}
+.cook-man{
+  line-height: 74px;
 }
