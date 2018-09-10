@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<div class="slider-main">
+    <div id="main-slider" class="owl-carousel">
+        {{getDataForSlider()}}
+        <div class="item" v-for="slide in slides">
+            <img :src="slide.img" alt="slider image">
+            <div class="dsc">
+                <h1 data-animation-in="flipInY" data-animation-out="animate-out fadeOutUp">{{slide.title}}</h1>
+                <h2 data-animation-in="flipInX" data-animation-out="animate-out fadeOutLeft">{{slide.description}}</h2>
+                <div class="btn-slider"><a href="#reservation" class="btn1" data-animation-in="bounceInLeft"
+                                           data-animation-out="animate-out bounceOutRight"><span>Забронювати</span></a>
+                    <a href="#menu" class="btn2" data-animation-in="bounceInLeft"
+                       data-animation-out="animate-out bounceOutRight"><span>Меню</span></a></div>
+            </div>
+        </div>
+    </div>
+</div>

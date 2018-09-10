@@ -1,3 +1,4 @@
+$(document).ready(function () {
 (function($) {
     "use strict";
 
@@ -320,6 +321,7 @@
     isotope menu sticky
     ---------------------------------*/  
     /* isotope Menu jquery isotope */
+
     var $container = $('#posts').isotope({
       itemSelector : '.item',
       isFitWidth: true
@@ -580,3 +582,4 @@
     });
 
 })(jQuery);
+})
